@@ -1,0 +1,17 @@
+# Dependências do Node (Código de terceiros pesado)
+node_modules/
+/.pnp
+.pnp.js
+
+# Arquivos de build do Next.js (Gerados automaticamente ao rodar o site)
+/.next/
+/out/
+
+# Arquivos de log e erro
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Variáveis de ambiente secretas (Senhas, chaves de banco de dados)
+.env*.local
+.env
