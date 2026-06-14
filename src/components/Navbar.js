@@ -16,12 +16,12 @@ export default function Navbar() {
           <div className="flex items-center space-x-2 cursor-pointer group">
             <div className="w-5 h-5 border border-[#d4af37] rotate-45 transition-transform duration-500 group-hover:rotate-180 bg-transparent"></div>
             <span className="text-white font-black tracking-widest text-sm transition-colors duration-300 group-hover:text-[#d4af37]">
-              A. Alejandro<span className="text-[#d4af37]">.</span>IO
+              A.A<span className="text-[#d4af37]"></span>
             </span>
           </div>
 
           {/* Links de Navegação Centrais (Só aparecem no PC) */}
-          <div className="hidden md:flex items-center space-x-8 text-sm font-semibold tracking-wide text-gray-300">
+          <div className="hidden md:flex items-center space-x-10 text-sm font-semibold tracking-wide text-gray-300">
             <a href="#home" className="hover:text-white transition-colors duration-200 uppercase text-xs tracking-widest">Home</a>
             <a href="#sobre" className="hover:text-white transition-colors duration-200 uppercase text-xs tracking-widest">Sobre</a>
             <a href="#projetos" className="hover:text-white transition-colors duration-200 uppercase text-xs tracking-widest">Projetos</a>
